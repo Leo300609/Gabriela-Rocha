@@ -1,0 +1,220 @@
+/* RESET */
+
+html {
+    font-family: "cursive";
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h3,
+h4,
+h5,
+p,
+span {
+    margin: 0;
+    color: beige;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+
+/* END RESET */
+
+
+/* HEADER */
+
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+
+/* HEADER */
+
+
+/* NAVBAR */
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(44, 2, 2);
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo {
+    width: 400px;
+    margin-top: 25px;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 15px;
+}
+
+.nav-container li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: beige;
+    transition: .5s;
+}
+
+.nav-container li a:hover {
+    color: antiquewhite:
+}
+
+
+/* END NAVBAR */
+
+
+/* BACKGOUND */
+
+.center-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+/* END BACKGROUND */
+
+
+/*MAIN*/
+
+body {
+    background-image: url(Assets/Imagens/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    font-size: 1.4em;
+    color: aliceblue;
+    background-color: #631d01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: beige;
+    text-align: center;
+}
+
+li.curiosidades {
+    margin-block-end: 1rem;
+}
+
+ol.curiosidades {
+    font-size: 1.35rem;
+    margin-left: 70px;
+    margin-top: 20rem;
+    margin-block-end: 18rem;
+}
+
+.container-space {
+    margin-left: 15%;
+    height: 90vh;
+    padding: 2rem 2rem;
+}
+
+div.Referências {
+    font-size: large;
+    background-color: #631d01;
+}
+
+div.curiosidades {
+    background-color: #631d01;
+}
+
+b.curiosidades {
+    color: orangered;
+}
+
+.container-p {
+    margin-left: 15%;
+    width: 70vw;
+    padding: 2rem 2rem;
+}
+
+div.text.container-p {
+    margin-top: 70px;
+}
+
+div.text.container-p h1 {
+    padding: 15px;
+}
+
+div.text.container-r {
+    margin-top: 70px;
+}
+
+.container-r {
+    margin-left: 15%;
+    width: 70vw;
+    padding: 2rem 2rem;
+}
+
+.container-space-r {
+    height: 25.6vh;
+    padding: 2rem 2rem;
+}
+
+div.text.container-d {
+    margin-top: 100px;
+    margin-right: 15%;
+    margin-left: 20%;
+}
+
+
+/*  END MAIN */
+
+
+/* FOOTER */
+
+.section-footer {
+    position: static;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(44, 2, 2);
+    padding: 2rem 8rem;
+    text-align: right;
+    justify-self: center;
+    margin-left: 0%;
+}
+
+.icons {
+    margin-right: 900px;
+    margin-left: 0;
+}
+
+
+/* END FOOTER */
